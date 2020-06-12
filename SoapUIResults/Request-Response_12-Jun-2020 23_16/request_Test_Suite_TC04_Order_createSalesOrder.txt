@@ -1,0 +1,23 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:salesOrderRepositoryV1SaveRequest>
+         <entity>
+             <!--enter valid customer email-->			
+<customerEmail>aran317.5@gmail.com</customerEmail>
+<items>
+	<item>
+	    <!--enter valid product SKU-->
+		<sku>SK543.2</sku>
+		<qtyOrdered>3</qtyOrdered>
+		<price>100</price>
+	</item>
+</items>
+<payment>
+    <!--default value checkmo-->
+	<method>checkmo</method>
+</payment>
+         </entity>
+      </def:salesOrderRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>

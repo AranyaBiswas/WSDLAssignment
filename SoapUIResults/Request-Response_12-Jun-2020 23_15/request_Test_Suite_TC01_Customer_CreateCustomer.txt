@@ -1,0 +1,35 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+            <!--email should be unique for each request-->
+<email>${#TestCase#email}</email>
+<firstname>Aran</firstname>
+<lastname>B</lastname>
+<dob>1991-01-01</dob>
+<addresses>
+	<item>
+		<region>
+		    <!--enter valid region code-->
+			<regionCode>TS</regionCode>
+			<region>Telangana</region>
+		</region>
+		<!--enter valid country id-->
+		<countryId>IN</countryId>
+		<street>
+			<item>#01, 1 st Main Road</item>
+		</street>
+		<telephone>+91 9876789111</telephone>
+		<postcode>500089</postcode>
+		<city>Hyderabad</city>
+		<firstname>Aran_address</firstname>
+		<lastname>B_address</lastname>
+		<defaultShipping>true</defaultShipping>
+		<defaultBilling>true</defaultBilling>
+	</item>
+</addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
