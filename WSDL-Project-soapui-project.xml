@@ -17178,7 +17178,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1GetByIdRequest>
-         <customerId>2675</customerId>
+         <customerId>2679</customerId>
       </def:customerCustomerRepositoryV1GetByIdRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="6f9b9654-e1e1-424d-b075-e3686c3a438b"/><con:assertion type="SOAP Fault Assertion" id="4742596e-67d9-4cd6-96d4-5463889532a0" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="a034590d-7cf7-4865-863e-c9f15e6d3244" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="e3f4d3a2-da8e-46f4-a910-50bdbbed61f4" name="XPath Match"><con:configuration><path>declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
@@ -17247,7 +17247,7 @@ CSVReportingTestStep.run(testRunner, ContextCSVReportingTestStep)</con:tearDownS
          <addressId>${TC02_Properties#address_id}</addressId>
       </def:customerAddressRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="13041a39-b95b-4442-ad51-5fccb7589295"/><con:assertion type="SOAP Fault Assertion" id="afe4ef56-9bcd-4d5b-8539-1f9355a12f69" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="2d0b05cf-6b9a-4619-903b-20e55b14fe96" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC02_Properties" id="341a88ae-cb70-4145-a7ac-f37bab7d0d1b"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>id</con:name><con:value>2676</con:value></con:property><con:property><con:name>address_id</con:name><con:value>2146</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*Setup Script to run the Create Customer, Create a new customer &amp; dynamically take the data drom the response and put them in the TC02 properties*/
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="13041a39-b95b-4442-ad51-5fccb7589295"/><con:assertion type="SOAP Fault Assertion" id="afe4ef56-9bcd-4d5b-8539-1f9355a12f69" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="2d0b05cf-6b9a-4619-903b-20e55b14fe96" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC02_Properties" id="341a88ae-cb70-4145-a7ac-f37bab7d0d1b"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>id</con:name><con:value>2680</con:value></con:property><con:property><con:name>address_id</con:name><con:value>2150</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*Setup Script to run the Create Customer, Create a new customer &amp; dynamically take the data drom the response and put them in the TC02 properties*/
 
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 import com.eviware.soapui.support.XmlHolder
@@ -17316,14 +17316,14 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=catalogProd
    <soap:Header/>
    <soap:Body>
       <def:catalogProductRepositoryV1GetRequest>
-         <sku>SK75.73</sku>
+         <sku>SK825.8</sku>
       </def:catalogProductRepositoryV1GetRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="33f5c320-32f2-4c0e-8191-307b679e9885"/><con:assertion type="SOAP Fault Assertion" id="e5893e78-977c-4321-86f9-4f0815b49aba" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="fcc63028-1788-4197-986b-cc32a6f6be31" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="DeleteProductBySKU" id="ae6e9624-dfd4-443b-a760-682855c7c42e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1DeleteById</con:operation><con:request name="DeleteProductBySKU" id="f77f1d7f-6244-452a-8036-d487760978f9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#accesstoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
    <soap:Header/>
    <soap:Body>
       <def:catalogProductRepositoryV1DeleteByIdRequest>
-         <sku>SK75.73</sku>
+         <sku>SK825.8</sku>
       </def:catalogProductRepositoryV1DeleteByIdRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="2168513f-a8aa-47f9-b08e-be8e777f1d23"/><con:assertion type="SOAP Fault Assertion" id="dfcd3a36-aec1-439e-804c-262e75ae1d20" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="b03e2c0a-9b0b-4916-86a8-8cdd3ccf32eb" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC03_Properties" id="41fb88f5-e9eb-49fd-b34e-b856b60d5a58"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SK${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>name</con:name><con:value>Product_${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>attributeSetId</con:name><con:value>4</con:value></con:property><con:property><con:name>price</con:name><con:value>701</con:value></con:property><con:property><con:name>typeId</con:name><con:value>simple</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*This TC fetches data from database. This Setup script calls the fetchDataForProduct groovy script that opens DB connection and fetches data from DB*/
@@ -17386,7 +17386,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderR
    <soap:Header/>
    <soap:Body>
       <def:salesOrderRepositoryV1GetRequest>
-         <id>1110</id>
+         <id>1112</id>
       </def:salesOrderRepositoryV1GetRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="a9dd6ab2-7d00-4248-973d-233caf6ee31d"/><con:assertion type="SOAP Fault Assertion" id="26c61168-721d-41db-92a4-475b836423c2"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC04_Properties" id="a5a57dbe-7261-46fa-b9ba-cc04e2050847"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>customerEmail</con:name><con:value>aran317.5@gmail.com</con:value></con:property><con:property><con:name>sku</con:name><con:value>SK543.2</con:value></con:property><con:property><con:name>qtyOrdered</con:name><con:value>3</con:value></con:property><con:property><con:name>price</con:name><con:value>971</con:value></con:property><con:property><con:name>method</con:name><con:value>checkmo</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*This TC fetches data from EXCEL database. This Setup script calls the createNewOrder groovy script that opens EXCEL connection and fetches data from EXCEL SHEET*/
@@ -17505,8 +17505,11 @@ try {
 catch(exc)
 {
    log.error("Exception happened: " + exc.toString());
-}</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="2db27bb6-8ed2-4a51-8921-e4d1b692bd3f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataMappingExcel" searchProperties="true"><con:settings/><con:testStep type="groovy" name="createNewOrder" id="ef88a804-adfd-4a65-8365-fbf8be7c6722"><con:settings/><con:config><script>import jxl.*
+}</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="2db27bb6-8ed2-4a51-8921-e4d1b692bd3f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataMappingExcel" searchProperties="true"><con:settings/><con:testStep type="groovy" name="createNewOrder" id="ef88a804-adfd-4a65-8365-fbf8be7c6722"><con:settings/><con:config><script>/*Groovy Script that fetches data from EXCEL and loads into TC04 Properties*/
 
+import jxl.*
+
+//Path is not hardcoded and relative to Project Path. Thus making it portable.
 def projectPath = new com.eviware.soapui.support.GroovyUtils(context).projectPath
 String filePath = projectPath + "/Data/TestExcel.xls";
 def exceldatafile = new File(filePath);
@@ -17526,8 +17529,11 @@ tc.setPropertyValue("customerEmail",customerEmail)
 tc.setPropertyValue("sku",sku)
 tc.setPropertyValue("qtyOrdered",qtyOrdered)
 tc.setPropertyValue("price",price)
-tc.setPropertyValue("method",method)</script></con:config></con:testStep><con:testStep type="groovy" name="createNewProduct" id="e2562c45-8de8-4922-ba27-73fba9ebbeb2"><con:settings/><con:config><script>import jxl.*
+tc.setPropertyValue("method",method)</script></con:config></con:testStep><con:testStep type="groovy" name="createNewProduct" id="e2562c45-8de8-4922-ba27-73fba9ebbeb2"><con:settings/><con:config><script>/*Groovy Script that fetches data from EXCEL and loads into TC04 Properties*/
 
+import jxl.*
+
+//Path is not hardcoded and relative to Project Path. Thus making it portable.
 def projectPath = new com.eviware.soapui.support.GroovyUtils(context).projectPath
 String filePath = projectPath + "/Data/TestExcel.xls";
 def exceldatafile = new File(filePath);
@@ -17547,7 +17553,9 @@ tc_prop.setPropertyValue("sku",sku)
 tc_prop.setPropertyValue("name",name)
 tc_prop.setPropertyValue("attributeSetId",attributeSetId)
 tc_prop.setPropertyValue("price",price)
-tc_prop.setPropertyValue("typeId",typeId)</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8e2b3373-c779-4990-90b0-9975339b334a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataBaseMapping" searchProperties="true"><con:settings/><con:testStep type="groovy" name="fetchDataForProduct" id="79dad3fd-20c6-4a52-b964-06e822c20d17"><con:settings/><con:config><script>import groovy.sql.Sql
+tc_prop.setPropertyValue("typeId",typeId)</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8e2b3373-c779-4990-90b0-9975339b334a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataBaseMapping" searchProperties="true"><con:settings/><con:testStep type="groovy" name="fetchDataForProduct" id="79dad3fd-20c6-4a52-b964-06e822c20d17"><con:settings/><con:config><script>/*Groovy Script that fetches data from database and loads into TC03 Properties*/
+
+import groovy.sql.Sql
 
 //Connection  Driver ,username , password, URL
 def url = 'jdbc:mysql://localhost:3306/customer'
