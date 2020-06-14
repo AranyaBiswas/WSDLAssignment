@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku>SK825.8</sku>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>

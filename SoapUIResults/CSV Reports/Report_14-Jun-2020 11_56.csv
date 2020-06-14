@@ -1,0 +1,20 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"Test_Suite","TC01_Customer","CreateCustomer","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC01_Customer","ListAllCustomer","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC01_Customer","CreateCustomerToGetCustomer","transfer","OK","Message:Performed transfer [Transfer1]
+","14-Jun-2020 11_56",
+"Test_Suite","TC01_Customer","GetCustomerById","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC01_Customer","DeleteCustomerById","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC01_Customer","TC01_Properties","properties","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC02_Customer Address","getAddressById","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC02_Customer Address","deleteAddressById","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC02_Customer Address","TC02_Properties","properties","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","getListProductTypes","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","CreateNewProduct","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","StoreTheSKU","transfer","OK","Message:Performed transfer [skuToGetProduct]
+Message:Performed transfer [skuToDeleteProduct]
+","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","GetProductList","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","GetProductBySKU","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","DeleteProductBySKU","request","OK","","14-Jun-2020 11_56",
+"Test_Suite","TC03_Product","TC03_Properties","properties","OK","","14-Jun-2020 11_56",

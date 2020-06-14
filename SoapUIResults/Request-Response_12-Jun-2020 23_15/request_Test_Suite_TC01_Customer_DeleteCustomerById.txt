@@ -1,8 +1,0 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
-   <soap:Header/>
-   <soap:Body>
-      <def:customerCustomerRepositoryV1DeleteByIdRequest>
-         <customerId>${CreateCustomer#Response#//ns1:customerCustomerRepositoryV1SaveResponse/result/id/text()}</customerId>
-      </def:customerCustomerRepositoryV1DeleteByIdRequest>
-   </soap:Body>
-</soap:Envelope>

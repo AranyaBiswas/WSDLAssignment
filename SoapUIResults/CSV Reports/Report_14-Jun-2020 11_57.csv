@@ -1,0 +1,7 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"Test_Suite","TC04_Order","createSalesOrder","request","OK","","14-Jun-2020 11_57",
+"Test_Suite","TC04_Order","getOrderList","request","OK","","14-Jun-2020 11_57",
+"Test_Suite","TC04_Order","Property Transfer","transfer","OK","Message:Performed transfer [createToGet]
+","14-Jun-2020 11_57",
+"Test_Suite","TC04_Order","getOrderById","request","OK","","14-Jun-2020 11_57",
+"Test_Suite","TC04_Order","TC04_Properties","properties","OK","","14-Jun-2020 11_57",

@@ -1,6 +1,0 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductTypeListV1">
-   <soap:Header/>
-   <soap:Body>
-      <def:catalogProductTypeListV1GetProductTypesRequest/>
-   </soap:Body>
-</soap:Envelope>

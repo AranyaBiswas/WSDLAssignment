@@ -17178,7 +17178,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1GetByIdRequest>
-         <customerId>2668</customerId>
+         <customerId>2675</customerId>
       </def:customerCustomerRepositoryV1GetByIdRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="6f9b9654-e1e1-424d-b075-e3686c3a438b"/><con:assertion type="SOAP Fault Assertion" id="4742596e-67d9-4cd6-96d4-5463889532a0" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="a034590d-7cf7-4865-863e-c9f15e6d3244" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="e3f4d3a2-da8e-46f4-a910-50bdbbed61f4" name="XPath Match"><con:configuration><path>declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
@@ -17190,7 +17190,10 @@ count(//id)</path><content>2</content><allowWildcards>false</allowWildcards><ign
          <customerId>${CreateCustomer#Response#//ns1:customerCustomerRepositoryV1SaveResponse/result/id/text()}</customerId>
       </def:customerCustomerRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="1aee4dab-3b56-45bd-b3fd-5bdbe946c9db"/><con:assertion type="SOAP Fault Assertion" id="7d45fdc9-1392-4620-851d-93de2c8673ff" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="c0a423fb-98ae-442c-bb9b-e84011cf236e" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="2d79c141-364c-4d39-9b56-0f68ca6432e6" name="Contains"><con:configuration><token>true</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC01_Properties" id="09d4a1d1-b140-4359-b841-63ea921cce0e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>firstname</con:name><con:value>Aran</con:value></con:property><con:property><con:name>lastname</con:name><con:value>B</con:value></con:property><con:property><con:name>dob</con:name><con:value>1991-01-01</con:value></con:property><con:property><con:name>regionCode</con:name><con:value>TS</con:value></con:property><con:property><con:name>region</con:name><con:value>Telangana</con:value></con:property><con:property><con:name>countryId</con:name><con:value>IN</con:value></con:property><con:property><con:name>item</con:name><con:value>#01, 1 st Main Road</con:value></con:property><con:property><con:name>telephone</con:name><con:value>+91 9876789111</con:value></con:property><con:property><con:name>postcode</con:name><con:value>500089</con:value></con:property><con:property><con:name>city</con:name><con:value>Hyderabad</con:value></con:property><con:property><con:name>firstname_add</con:name><con:value>Aran_address</con:value></con:property><con:property><con:name>lastname_add</con:name><con:value>B_address</con:value></con:property><con:property><con:name>defaultShipping</con:name><con:value>true</con:value></con:property><con:property><con:name>defaultBilling</con:name><con:value>true</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>import com.eviware.soapui.support.XmlHolder
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="1aee4dab-3b56-45bd-b3fd-5bdbe946c9db"/><con:assertion type="SOAP Fault Assertion" id="7d45fdc9-1392-4620-851d-93de2c8673ff" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="c0a423fb-98ae-442c-bb9b-e84011cf236e" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="2d79c141-364c-4d39-9b56-0f68ca6432e6" name="Contains"><con:configuration><token>true</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC01_Properties" id="09d4a1d1-b140-4359-b841-63ea921cce0e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>firstname</con:name><con:value>Aran</con:value></con:property><con:property><con:name>lastname</con:name><con:value>B</con:value></con:property><con:property><con:name>dob</con:name><con:value>1991-01-01</con:value></con:property><con:property><con:name>regionCode</con:name><con:value>TS</con:value></con:property><con:property><con:name>region</con:name><con:value>Telangana</con:value></con:property><con:property><con:name>countryId</con:name><con:value>IN</con:value></con:property><con:property><con:name>item</con:name><con:value>#01, 1 st Main Road</con:value></con:property><con:property><con:name>telephone</con:name><con:value>+91 9876789111</con:value></con:property><con:property><con:name>postcode</con:name><con:value>500089</con:value></con:property><con:property><con:name>city</con:name><con:value>Hyderabad</con:value></con:property><con:property><con:name>firstname_add</con:name><con:value>Aran_address</con:value></con:property><con:property><con:name>lastname_add</con:name><con:value>B_address</con:value></con:property><con:property><con:name>defaultShipping</con:name><con:value>true</con:value></con:property><con:property><con:name>defaultBilling</con:name><con:value>true</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*This Setup Script LOADS all the data from properties file and directly place them into the Request section of create customer*/
+
+import com.eviware.soapui.support.XmlHolder
+
 def firstname =  testRunner.testCase.testSuite.testCases["TC01_Customer"].testSteps["TC01_Properties"].getPropertyValue("firstname")
 def lastname =  testRunner.testCase.testSuite.testCases["TC01_Customer"].testSteps["TC01_Properties"].getPropertyValue("lastname")
 def dob =  testRunner.testCase.testSuite.testCases["TC01_Customer"].testSteps["TC01_Properties"].getPropertyValue("dob")
@@ -17222,7 +17225,9 @@ xmlcreatecustomer.setNodeValue("//customer/addresses/item/lastname", lastname_ad
 xmlcreatecustomer.setNodeValue("//customer/addresses/item/defaultShipping", defaultShipping)
 xmlcreatecustomer.setNodeValue("//customer/addresses/item/defaultBilling", defaultBilling)
 def updatedXmlCreateCustomer = xmlcreatecustomer.getXml()
-testRunner.testCase.testSuite.testCases["TC01_Customer"].testSteps["CreateCustomer"].setPropertyValue("request", updatedXmlCreateCustomer)</con:setupScript><con:tearDownScript>import com.eviware.*
+testRunner.testCase.testSuite.testCases["TC01_Customer"].testSteps["CreateCustomer"].setPropertyValue("request", updatedXmlCreateCustomer)</con:setupScript><con:tearDownScript>/*Teardown script for creating CSV Report at end of test case execution*/
+
+import com.eviware.*
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 
 def CSVReportingTestStep = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["CSVReporting"].testSteps["GenerateCsvReport"]
@@ -17242,10 +17247,11 @@ CSVReportingTestStep.run(testRunner, ContextCSVReportingTestStep)</con:tearDownS
          <addressId>${TC02_Properties#address_id}</addressId>
       </def:customerAddressRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="13041a39-b95b-4442-ad51-5fccb7589295"/><con:assertion type="SOAP Fault Assertion" id="afe4ef56-9bcd-4d5b-8539-1f9355a12f69" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="2d0b05cf-6b9a-4619-903b-20e55b14fe96" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC02_Properties" id="341a88ae-cb70-4145-a7ac-f37bab7d0d1b"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>id</con:name><con:value>2669</con:value></con:property><con:property><con:name>address_id</con:name><con:value>2139</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="13041a39-b95b-4442-ad51-5fccb7589295"/><con:assertion type="SOAP Fault Assertion" id="afe4ef56-9bcd-4d5b-8539-1f9355a12f69" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="2d0b05cf-6b9a-4619-903b-20e55b14fe96" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC02_Properties" id="341a88ae-cb70-4145-a7ac-f37bab7d0d1b"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>id</con:name><con:value>2676</con:value></con:property><con:property><con:name>address_id</con:name><con:value>2146</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*Setup Script to run the Create Customer, Create a new customer &amp; dynamically take the data drom the response and put them in the TC02 properties*/
+
+import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 import com.eviware.soapui.support.XmlHolder
 
-//Run the Script to fetch data from Database
 def CreateCustomer = testRunner.testCase.testSuite.project.testSuites["Test_Suite"].testCases["TC01_Customer"].testSteps["CreateCustomer"]
 def ContextCreateCustomer = new WsdlTestRunContext(CreateCustomer)
 CreateCustomer.run(testRunner, ContextCreateCustomer)
@@ -17256,7 +17262,9 @@ def id = xmlcreatecustomer.getNodeValue("//result/addresses/item/customerId")
 def address_id = xmlcreatecustomer.getNodeValue("//result/addresses/item/id")
 
 testRunner.testCase.testSuite.testCases["TC02_Customer Address"].testSteps["TC02_Properties"].setPropertyValue("id", id)
-testRunner.testCase.testSuite.testCases["TC02_Customer Address"].testSteps["TC02_Properties"].setPropertyValue("address_id", address_id)</con:setupScript><con:tearDownScript>import com.eviware.*
+testRunner.testCase.testSuite.testCases["TC02_Customer Address"].testSteps["TC02_Properties"].setPropertyValue("address_id", address_id)</con:setupScript><con:tearDownScript>/*Teardown script for creating CSV Report at end of test case execution*/
+
+import com.eviware.*
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 
 def CSVReportingTestStep = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["CSVReporting"].testSteps["GenerateCsvReport"]
@@ -17308,23 +17316,27 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=catalogProd
    <soap:Header/>
    <soap:Body>
       <def:catalogProductRepositoryV1GetRequest>
-         <sku>SK319.7</sku>
+         <sku>SK75.73</sku>
       </def:catalogProductRepositoryV1GetRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="33f5c320-32f2-4c0e-8191-307b679e9885"/><con:assertion type="SOAP Fault Assertion" id="e5893e78-977c-4321-86f9-4f0815b49aba" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="fcc63028-1788-4197-986b-cc32a6f6be31" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="DeleteProductBySKU" id="ae6e9624-dfd4-443b-a760-682855c7c42e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1DeleteById</con:operation><con:request name="DeleteProductBySKU" id="f77f1d7f-6244-452a-8036-d487760978f9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="${#Project#accesstoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
    <soap:Header/>
    <soap:Body>
       <def:catalogProductRepositoryV1DeleteByIdRequest>
-         <sku>SK319.7</sku>
+         <sku>SK75.73</sku>
       </def:catalogProductRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="2168513f-a8aa-47f9-b08e-be8e777f1d23"/><con:assertion type="SOAP Fault Assertion" id="dfcd3a36-aec1-439e-804c-262e75ae1d20" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="b03e2c0a-9b0b-4916-86a8-8cdd3ccf32eb" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC03_Properties" id="41fb88f5-e9eb-49fd-b34e-b856b60d5a58"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SK${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>name</con:name><con:value>Product_${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>attributeSetId</con:name><con:value>4</con:value></con:property><con:property><con:name>price</con:name><con:value>701</con:value></con:property><con:property><con:name>typeId</con:name><con:value>simple</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="2168513f-a8aa-47f9-b08e-be8e777f1d23"/><con:assertion type="SOAP Fault Assertion" id="dfcd3a36-aec1-439e-804c-262e75ae1d20" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="b03e2c0a-9b0b-4916-86a8-8cdd3ccf32eb" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC03_Properties" id="41fb88f5-e9eb-49fd-b34e-b856b60d5a58"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SK${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>name</con:name><con:value>Product_${=String.valueOf(Math.random()*1000).substring(0,5)}</con:value></con:property><con:property><con:name>attributeSetId</con:name><con:value>4</con:value></con:property><con:property><con:name>price</con:name><con:value>701</con:value></con:property><con:property><con:name>typeId</con:name><con:value>simple</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*This TC fetches data from database. This Setup script calls the fetchDataForProduct groovy script that opens DB connection and fetches data from DB*/
+
+import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 import com.eviware.soapui.support.XmlHolder
 
-//Run the Script to fetch data from Database
+//Run the fetchDataForProduct Script to fetch data from Database
 def fetchDataForProduct = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["DataBaseMapping"].testSteps["fetchDataForProduct"]
 def ContextfetchDataForProduct = new WsdlTestRunContext(fetchDataForProduct)
-fetchDataForProduct.run(testRunner, ContextfetchDataForProduct)</con:setupScript><con:tearDownScript>import com.eviware.*
+fetchDataForProduct.run(testRunner, ContextfetchDataForProduct)</con:setupScript><con:tearDownScript>/*Teardown script for creating CSV Report at end of test case execution*/
+
+import com.eviware.*
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 
 def CSVReportingTestStep = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["CSVReporting"].testSteps["GenerateCsvReport"]
@@ -17374,15 +17386,19 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderR
    <soap:Header/>
    <soap:Body>
       <def:salesOrderRepositoryV1GetRequest>
-         <id>1103</id>
+         <id>1110</id>
       </def:salesOrderRepositoryV1GetRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="a9dd6ab2-7d00-4248-973d-233caf6ee31d"/><con:assertion type="SOAP Fault Assertion" id="26c61168-721d-41db-92a4-475b836423c2"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC04_Properties" id="a5a57dbe-7261-46fa-b9ba-cc04e2050847"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>customerEmail</con:name><con:value>aran317.5@gmail.com</con:value></con:property><con:property><con:name>sku</con:name><con:value>SK543.2</con:value></con:property><con:property><con:name>qtyOrdered</con:name><con:value>3</con:value></con:property><con:property><con:name>price</con:name><con:value>971</con:value></con:property><con:property><con:name>method</con:name><con:value>checkmo</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="a9dd6ab2-7d00-4248-973d-233caf6ee31d"/><con:assertion type="SOAP Fault Assertion" id="26c61168-721d-41db-92a4-475b836423c2"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="properties" name="TC04_Properties" id="a5a57dbe-7261-46fa-b9ba-cc04e2050847"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>customerEmail</con:name><con:value>aran317.5@gmail.com</con:value></con:property><con:property><con:name>sku</con:name><con:value>SK543.2</con:value></con:property><con:property><con:name>qtyOrdered</con:name><con:value>3</con:value></con:property><con:property><con:name>price</con:name><con:value>971</con:value></con:property><con:property><con:name>method</con:name><con:value>checkmo</con:value></con:property></con:properties></con:config></con:testStep><con:setupScript>/*This TC fetches data from EXCEL database. This Setup script calls the createNewOrder groovy script that opens EXCEL connection and fetches data from EXCEL SHEET*/
 
-//Run the Script to fetch data from Database
+import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
+
+//Run the createNewOrder Script to fetch data from Excel Sheet
 def createNewOrder = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["DataMappingExcel"].testSteps["createNewOrder"]
 def ContextcreateNewOrder = new WsdlTestRunContext(createNewOrder)
-createNewOrder.run(testRunner, ContextcreateNewOrder)</con:setupScript><con:tearDownScript>import com.eviware.*
+createNewOrder.run(testRunner, ContextcreateNewOrder)</con:setupScript><con:tearDownScript>/*Teardown script for creating CSV Report at end of test case execution*/
+
+import com.eviware.*
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestRunContext
 
 def CSVReportingTestStep = testRunner.testCase.testSuite.project.testSuites["Utility"].testCases["CSVReporting"].testSteps["GenerateCsvReport"]
@@ -17510,9 +17526,7 @@ tc.setPropertyValue("customerEmail",customerEmail)
 tc.setPropertyValue("sku",sku)
 tc.setPropertyValue("qtyOrdered",qtyOrdered)
 tc.setPropertyValue("price",price)
-tc.setPropertyValue("method",method)
-
-</script></con:config></con:testStep><con:testStep type="groovy" name="createNewProduct" id="e2562c45-8de8-4922-ba27-73fba9ebbeb2"><con:settings/><con:config><script>import jxl.*
+tc.setPropertyValue("method",method)</script></con:config></con:testStep><con:testStep type="groovy" name="createNewProduct" id="e2562c45-8de8-4922-ba27-73fba9ebbeb2"><con:settings/><con:config><script>import jxl.*
 
 def projectPath = new com.eviware.soapui.support.GroovyUtils(context).projectPath
 String filePath = projectPath + "/Data/TestExcel.xls";
